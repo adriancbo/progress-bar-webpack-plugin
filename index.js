@@ -1,6 +1,7 @@
 var ProgressBar = require('progress');
 var chalk = require('chalk');
 var _ = require('lodash');
+var utf8 = require('utf8');
 var webpack = require('webpack');
 
 require('object.assign').shim();
@@ -10,9 +11,11 @@ module.exports = function ProgressBarPlugin(options) {
 
   var isInteractive = process.stdout.isTTY;
 
+  var emoji = utf8.decode("\xE2\x9A\xA1");
   var barLeft = chalk.bold('[');
   var barRight = chalk.bold(']');
-  var preamble = chalk.cyan.bold('  build ') + barLeft;
+  // var preamble = chalk.cyan.bold('  build ') + barLeft;
+  var preamble = chalk.cyan.bold("Swyft") + emoji + barLeft;
   var barFormat = options.format || preamble + ':bar' + barRight + chalk.green.bold(' :percent');
 
   delete options.format;
