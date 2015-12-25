@@ -1,6 +1,6 @@
 {
-  "name": "progress-bar-webpack-plugin",
-  "version": "1.2.0",
+  "name": "swyft-progress-bar-webpack-plugin",
+  "version": "1.0.0",
   "description": "A progress bar for Webpack.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clessg/progress-bar-webpack-plugin.git"
+    "url": "git+https://github.com/adriancbo/progress-bar-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -16,12 +16,12 @@
     "progress",
     "bar"
   ],
-  "author": "Chris Gaudreau <chris@crystala.net> (https://github.com/clessg)",
+  "author": "Adrian Carballo <adrian@swyftmedia.com> (https://github.com/adriancbo)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/clessg/progress-bar-webpack-plugin/issues"
+    "url": "https://github.com/adriancbo/progress-bar-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/clessg/progress-bar-webpack-plugin#readme",
+  "homepage": "https://github.com/adriancbo/progress-bar-webpack-plugin#readme",
   "dependencies": {
     "chalk": "^1.1.1",
     "lodash": "^3.10.1",
