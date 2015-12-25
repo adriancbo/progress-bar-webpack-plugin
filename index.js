@@ -12,7 +12,7 @@ module.exports = function ProgressBarPlugin(options) {
   var isInteractive = process.stdout.isTTY;
 
   var emoji = utf8.decode("\xE2\x9A\xA1");
-  var barLeft = chalk.white.bold(' ==> [');
+  var barLeft = chalk.bold(' ==> [');
   var barRight = chalk.bold(']');
   // var preamble = chalk.cyan.bold('  build ') + barLeft;
   var preamble = chalk.cyan.bold("Swyft") + emoji + barLeft;
